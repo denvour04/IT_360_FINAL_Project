@@ -5,4 +5,4 @@
 - Member 3
 
 ## Project Idea
-This will be my final project for IT 360
+This will be our final project for IT 360
