@@ -3,8 +3,9 @@
 ## Digital Forensics File Metadata & Hash Verification Tool
 
 ## Team Members
-- Member 1  
-- Member 2  
+- Denvour  
+- Chris
+- Member 3
 
 ---
 
