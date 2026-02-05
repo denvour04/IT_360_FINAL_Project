@@ -35,7 +35,7 @@ This project addresses that problem by proposing an automated and repeatable met
 
 ---
 
-## Technologies Used
+## Technologies to be Used
 - Python 3  
 - Built-in Python libraries:
   - `os`
