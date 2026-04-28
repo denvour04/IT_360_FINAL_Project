@@ -54,3 +54,118 @@ The final tool will generate a CSV-based forensic report containing file metadat
 
 ## Project Scope and Timeline
 This project is to be achievable by a 3-person team within the course timeframe. Development will focus on implementing core forensic functionality aligned with weekly lab exercises, followed by documentation and a recorded video demonstration.
+---
+
+# Planned Repository Structure
+
+```text
+IT_360_FINAL_Project/
+│
+├── src/
+│   └── main.py
+│
+├── data/
+│   └── sample_evidence/
+│
+├── output/
+│
+├── docs/
+│
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
+# Planned Installation and Setup
+
+## Prerequisites
+- Python 3.x
+- Git (optional)
+
+Verify Python installation:
+
+```bash
+python --version
+```
+
+or:
+
+```bash
+python3 --version
+```
+
+---
+
+## Cloning the Repository
+
+```bash
+git clone https://github.com/denvour04/IT_360_FINAL_Project.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd IT_360_FINAL_Project
+```
+
+---
+
+# Planned Usage
+
+1. Place evidence files inside:
+
+```text
+data/sample_evidence/
+```
+
+2. Run the tool:
+
+```bash
+python src/main.py
+```
+
+or:
+
+```bash
+python3 src/main.py
+```
+
+3. View the generated report inside:
+
+```text
+output/forensic_report.csv
+```
+
+---
+
+# Forensic Relevance
+
+This project demonstrates several core digital forensics concepts covered throughout IT 360 and the *Lab Access for Digital Forensics, Investigation, and Response (Fourth Edition)* textbook, including:
+
+- File metadata analysis
+- Evidence documentation
+- File integrity verification
+- Cryptographic hashing
+- Automated forensic reporting
+
+The tool will perform read-only analysis and will not modify original evidence files.
+
+---
+
+# Future Improvements
+
+Possible future improvements include:
+- Graphical user interface (GUI)
+- Additional hash algorithms
+- Support for forensic disk image analysis
+- Log analysis integration
+- PDF report generation
+
+---
+
+# License
+
+This project will use the MIT License.
