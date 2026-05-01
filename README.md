@@ -53,7 +53,7 @@ The final tool will generate a CSV-based forensic report containing file metadat
 ---
 
 ## Project Scope and Timeline
-This project is to be achievable by a 3-person team within the course timeframe. Development will focus on implementing core forensic functionality aligned with weekly lab exercises, followed by documentation and a recorded video demonstration.
+This project is designed to be achievable by a 3-person team within the course timeframe. Development will focus on implementing core forensic functionality aligned with weekly lab exercises, followed by documentation and a recorded video demonstration.
 ---
 
 # Planned Repository Structure
@@ -154,6 +154,15 @@ This project demonstrates several core digital forensics concepts covered throug
 The tool will perform read-only analysis and will not modify original evidence files.
 
 ---
+
+## Team Responsibilities
+
+- **Denvour:** GitHub repository setup, README documentation, and video presentation support.
+- **Chris:** Python tool development, testing, and sample evidence file preparation.
+- **Justin:** Written report support, results documentation, and final review.
+
+ ---
+ 
 
 # Future Improvements
 
