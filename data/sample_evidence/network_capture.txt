@@ -1,0 +1,7 @@
+NETWORK PACKET CAPTURE SUMMARY
+Capture Date: 2026-04-01
+Source IP: 192.168.1.105
+Destination IP: 45.33.32.156
+Protocol: HTTPS
+Bytes Transferred: 2,048,391
+Suspicious: Unusual large upload at 02:14 AM

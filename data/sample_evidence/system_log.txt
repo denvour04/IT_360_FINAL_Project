@@ -1,0 +1,6 @@
+SYSTEM ACCESS LOG
+[2026-04-01 09:12:33] User login: admin
+[2026-04-01 09:15:01] File accessed: /private/payroll.xlsx
+[2026-04-01 09:22:44] USB device connected: SanDisk 32GB
+[2026-04-01 09:23:10] File copied to external drive
+[2026-04-01 09:25:00] User logout: admin

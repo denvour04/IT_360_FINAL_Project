@@ -1,0 +1,6 @@
+DELETED FILE RECOVERY FRAGMENT
+File: deleted_email.eml
+From: suspect@example.com
+To: receiver@example.com
+Subject: The transfer went through
+Body: Everything is set. Delete this after reading.
