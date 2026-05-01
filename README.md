@@ -141,6 +141,102 @@ output/forensic_report.csv
 
 ---
 
+## How to Use the Tool
+
+Place evidence files inside:
+
+```text
+
+data/sample_evidence/
+
+```
+
+Example evidence files may include:
+
+```text
+
+.txt
+
+.pdf
+
+.jpg
+
+.png
+
+.docx
+
+```
+
+Run the tool:
+
+```bash
+
+python src/main.py
+
+```
+
+or:
+
+```bash
+
+python3 src/main.py
+
+```
+
+---
+
+## Output
+
+After the tool runs, it creates a CSV report at:
+
+```text
+
+output/forensic_report.csv
+
+```
+
+The report includes:
+
+- File path
+
+- File name
+
+- File size
+
+- Created/changed time
+
+- Modified time
+
+- Accessed time
+
+- SHA-256 hash
+
+---
+
+## Example Terminal Output
+
+```text
+
+Scan Complete
+
+----------------------------
+
+Files analyzed: 1
+
+Total size: 103 bytes
+
+Hash algorithm: SHA-256
+
+Report saved to: output/forensic_report.csv
+
+```
+
+---
+
+
+---
+
+
 # Forensic Relevance
 
 This project demonstrates several core digital forensics concepts covered throughout IT 360 and the *Lab Access for Digital Forensics, Investigation, and Response (Fourth Edition)* textbook, including:
@@ -163,6 +259,33 @@ Possible future improvements include:
 - Support for forensic disk image analysis
 - Log analysis integration
 - PDF report generation
+
+---
+
+## Limitations
+
+On Windows, the created/changed timestamp usually represents file creation time. On macOS and Linux, this timestamp may represent metadata change time instead of original file creation time.
+
+This tool is designed for basic file metadata and hash verification. It does not analyze full disk images or recover deleted files.
+
+---
+
+## Final Report
+
+The written report will be located in:
+
+```text
+
+docs/final_report.pdf
+
+```
+
+---
+
+## Video Presentation
+
+Video Link: To be added
+
 
 ---
 
