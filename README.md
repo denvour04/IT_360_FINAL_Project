@@ -13,6 +13,10 @@
 This project proposes the development of a Python-based digital forensics tool designed to automate the process of file metadata extraction and file integrity verification. The tool will scan a directory containing digital evidence and collect key forensic attributes such as file timestamps, file size, and cryptographic hash values.
 
 The goal of this project is to apply concepts learned throughout the course and in the *Lab Access for Digital Forensics, Investigation, and Response (Fourth Edition)* textbook to a practical, hands-on forensic task. The proposed tool reflects common evidence examination techniques used in real-world digital forensic investigations.
+---
+## Video Presentation
+
+https://youtu.be/KoN-6bulMnc
 
 ---
 
