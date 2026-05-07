@@ -1,4 +1,4 @@
-# IT 360 Final Project Proposal
+# IT 360 Final Project
 
 ## Digital Forensics File Metadata & Hash Verification Tool
 
